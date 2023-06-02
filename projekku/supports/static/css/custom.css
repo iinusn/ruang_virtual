@@ -1,0 +1,25 @@
+.carousel-item {
+  height: 80vh;
+}
+.card {
+box-shadow: rgba(165, 24, 168, 0.24) 0px 3px 8px;
+}
+.footer-cta {
+box-shadow: rgba(139, 9, 139, 0.15) 0px 5px 15px;
+}
+.price {
+color: #84029e;
+font-size: 24px;
+}
+
+.card-title {
+color:#84029e;
+}
+
+.sale {
+color: #84029e;
+}
+
+.sale-badge {
+background-color: #84029e
+}
