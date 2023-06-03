@@ -2,24 +2,24 @@
   height: 90vh;
 }
 .card {
-box-shadow: rgba(149, 22, 151, 0.24) 0px 3px 8px;
+box-shadow:#FDAB9F 0px 5px 8px;
 }
 .footer-cta {
-box-shadow: rgba(211, 0, 172, 0.15) 0px 5px 15px;
+box-shadow: #FDAB9F 0px 5px 15px;
 }
 .price {
-color: #700479;
+color: #FDAB9F;
 font-size: 24px;
 }
 
 .card-title {
-color:#7b046f
+color:#595a61
 }
 
 .sale {
-color: #800676
+color:#FDAB9F
 }
 
 .sale-badge {
-background-color: #7b046f
+background-color: #FDAB9F
 }
