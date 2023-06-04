@@ -16,6 +16,33 @@ class HomeListView(generic.ListView):
     queryset = ProdukItem.objects.all()
     paginate_by = 5
 
+class WaListView(generic.ListView):
+    template_name = 'home.html'
+    context_object_name='product_list'
+
+    def get_queryset(self):
+        return ProdukItem.objects.filter(kategori='WA')
+
+class RiListView(generic.ListView):
+    template_name = 'home.html'
+    context_object_name='product_list'
+
+    def get_queryset(self):
+        return ProdukItem.objects.filter(kategori='RI')
+
+class NeListView(generic.ListView):
+    template_name = 'home.html'
+    context_object_name='product_list'
+
+    def get_queryset(self):
+        return ProdukItem.objects.filter(kategori='NE')
+
+class NeListView(generic.ListView):
+    template_name = 'home.html'
+    context_object_name='product_list'
+
+    def get_queryset(self):
+        return ProdukItem.objects.filter(kategori='ER')
 
 class ProductDetailView(generic.DetailView):
     template_name = 'product_detail.html'
