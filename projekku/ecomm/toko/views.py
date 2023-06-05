@@ -37,7 +37,7 @@ class NeListView(generic.ListView):
     def get_queryset(self):
         return ProdukItem.objects.filter(kategori='NE')
 
-class NeListView(generic.ListView):
+class ErListView(generic.ListView):
     template_name = 'home.html'
     context_object_name='product_list'
 
