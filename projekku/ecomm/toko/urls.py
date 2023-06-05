@@ -20,5 +20,5 @@ urlpatterns = [
      path('watch/', views.WaListView.as_view(),{'kategori':'WA'},name='watch'),
      path('ring/', views.RiListView.as_view(),{'kategori':'RI'},name='ring/'),
      path('necklace/', views.NeListView.as_view(),{'kategori':'RI'},name='necklace/'),
-     path('earing/', views.NeListView.as_view(),{'kategori':'ER'},name='earing/'),
+     path('earing/', views.ErListView.as_view(),{'kategori':'ER'},name='earing/'),
 ]
